@@ -31,7 +31,7 @@ function PhotoList() {
             }
 
             curPage.current += 1
-            if (curPage.current === 5) {
+            if (curPage.current === 10) {
                 setEoL(true)
             }
 
