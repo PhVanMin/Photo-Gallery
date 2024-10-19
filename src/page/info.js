@@ -23,10 +23,10 @@ function PhotoInfo() {
             }
         }
 
-        return () => GetPhoto()
+        GetPhoto()
     }, [])
 
-    if (info == null) {
+    if (!info) {
         return <div>Loading...  </div>
     }
 
